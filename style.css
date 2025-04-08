@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+h1{
+    font-size: 5vmin;
+    color: #FFFFFF;
+    text-align: center;
+}
+.box{
+    color:#41EAD4;
+    height: 18vmin;
+    width: 18vmin;
+    font-size:9vmin;
+    border: none;
+    border-radius:1rem;
+    box-shadow: rgba(60, 125, 182, 0.2) 6px 2px 10px 0px, rgba(105, 255, 255, 0.2) -6px -2px 10px 0px;
+}
+
+button{
+    background-color:#0C0F0A;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#reset-btn{
+ background-color: yellowgreen;
+ padding: 1rem;
+ font-size: 1.5rem;
+ border: 3px solid cyan;
+ border-radius: 1rem;      
+ cursor: pointer;                   
+}
+#reset-btn:hover
+{
+    transform: scale(0.9);
+}
+#new-game{
+    background-color: yellowgreen;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 3px solid cyan;
+    border-radius: 1rem;
+}
+#new-game:hover
+{
+    transform: scale(0.9);
+}
+#msg{
+    color:yellowgreen;
+    font-size:5vmin;
+}
+#msg-container {
+    height: 10vmin ;
+}
+.hide{
+    display: none;
+}
+
+.copyright
+{
+    color: wheat;
+    text-align: top;
+}
